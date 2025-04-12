@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ffmpeg_kit_flutter_full_gpl'
-  s.version = '5.1.0.LTS'
+  s.version = '6.0.3'
   s.summary          = 'FFmpeg Kit for Flutter'
   s.description      = 'A Flutter plugin for running FFmpeg and FFprobe commands.'
   s.homepage         = 'https://github.com/arthenica/ffmpeg-kit'
@@ -121,7 +121,7 @@ Pod::Spec.new do |s|
   s.subspec 'full-gpl' do |ss|
     ss.source_files         = 'Classes/**/*'
     ss.public_header_files  = 'Classes/**/*.h'
-    ss.dependency 'ffmpeg-kit-ios-full-gpl', "5.1"
+    ss.dependency 'ffmpeg-kit-ios-full-gpl', "6.0"
     ss.ios.deployment_target = '12.1'
   end
 
